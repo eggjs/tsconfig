@@ -1,0 +1,39 @@
+{
+  "name": "@eggjs/tsconfig",
+  "description": "Base tsconfig for egg ts project",
+  "version": "0.0.0",
+  "keywords": [
+    "egg",
+    "typescript",
+    "tsconfig"
+  ],
+  "files": [
+    "tsconfig.json"
+  ],
+  "scripts": {
+    "test": "egg-bin test",
+    "ci": "egg-bin cov"
+  },
+  "author": "killagu <killa123@126.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/eggjs/tsconfig",
+  "bugs": {
+    "url": "https://github.com/eggjs/egg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eggjs/tsconfig.git"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "devDependencies": {
+    "coffee": "^5.4.0",
+    "egg-bin": "^4.15.0",
+    "typescript": "^3.9.7"
+  },
+  "ci": {
+    "type": "aci",
+    "versions": "10, 12"
+  }
+}
