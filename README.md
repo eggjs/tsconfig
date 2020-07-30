@@ -7,12 +7,12 @@ Base tsconfig file for egg project
 [![NPM quality][quality-image]][quality-url]
 [![npm download][download-image]][download-url]
 
-[npm-image]: https://img.shields.io/npm/v/egg.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/egg
-[quality-image]: http://npm.packagequality.com/shield/egg.svg?style=flat-square
-[quality-url]: http://packagequality.com/#?package=egg
-[download-image]: https://img.shields.io/npm/dm/egg.svg?style=flat-square
-[download-url]: https://npmjs.org/package/egg
+[npm-image]: https://img.shields.io/npm/v/@eggjs/tsconfig.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@eggjs/tsconfig
+[quality-image]: http://npm.packagequality.com/shield/@eggjs/tsconfig.svg?style=flat-square
+[quality-url]: http://packagequality.com/#?package=@eggjs/tsconfig
+[download-image]: https://img.shields.io/npm/dm/@eggjs/tsconfig.svg?style=flat-square
+[download-url]: https://npmjs.org/package/@eggjs/tsconfig
 
 --------------------
 
