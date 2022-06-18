@@ -1,9 +1,11 @@
 # @eggjs/tsconfig
+
 Base tsconfig file for egg project
 
 ## Badges
 
 [![NPM version][npm-image]][npm-url]
+[![Node.js CI](https://github.com/eggjs/tsconfig/actions/workflows/nodejs.yml/badge.svg)](https://github.com/eggjs/tsconfig/actions/workflows/nodejs.yml)
 [![NPM quality][quality-image]][quality-url]
 [![npm download][download-image]][download-url]
 
@@ -19,7 +21,7 @@ Base tsconfig file for egg project
 ## Install
 
 ```shell
-npm i --save @eggjs/tsconfig
+npm i --save-dev @eggjs/tsconfig
 ```
 
 ## Usage
@@ -27,6 +29,10 @@ npm i --save @eggjs/tsconfig
 ```json
 // tsconfig.json
 {
-  "extends": "@eggjs/tsconfig"
+  "extends": "@eggjs/tsconfig",
+  // custom config
+  "compilerOptions": {
+    // override @eggjs/tsconfig options here
+  }
 }
 ```
