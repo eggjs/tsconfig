@@ -34,7 +34,7 @@
     "typescript": "^4.7.4"
   },
   "ci": {
-    "type": "github",
+    "os": "linux",
     "versions": "14, 16, 18"
   }
 }
