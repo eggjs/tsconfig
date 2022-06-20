@@ -6,5 +6,13 @@ function FooDecorator() {
 
 @FooDecorator()
 class Foo {
+  demoError() {
+    try {
 
+    } catch (err) {
+      if (err instanceof TypeError) {
+        console.log('type error');
+      }
+    }
+  }
 }

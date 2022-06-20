@@ -25,16 +25,16 @@
     "url": "https://github.com/eggjs/tsconfig.git"
   },
   "engines": {
-    "node": ">=10.0.0"
+    "node": ">=14.0.0"
   },
   "devDependencies": {
     "coffee": "^5.4.0",
-    "egg-bin": "^4.15.0",
-    "egg-ci": "^1.15.0",
-    "typescript": "^3.9.7"
+    "egg-bin": "^5.1.0",
+    "egg-ci": "^2.1.0",
+    "typescript": "^4.7.4"
   },
   "ci": {
-    "type": "github",
-    "versions": "10, 12, 14"
+    "os": "linux",
+    "versions": "14, 16, 18"
   }
 }

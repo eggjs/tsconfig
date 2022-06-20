@@ -31,6 +31,7 @@
     "declaration": true,
     "resolveJsonModule": true,
     // Enables experimental support for ES7 decorators.
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "useUnknownInCatchVariables": true
   }
 }

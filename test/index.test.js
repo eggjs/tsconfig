@@ -2,7 +2,7 @@
 
 const coffee = require('coffee');
 const path = require('path');
-const { promises: fs } = require('fs');
+const fs = require('fs/promises');
 const assert = require('assert');
 
 describe('test/index.test.ts', () => {
