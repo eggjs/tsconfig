@@ -1,4 +1,10 @@
 
+1.1.0 / 2022-06-20
+==================
+
+**others**
+  * [[`9722eb2`](http://github.com/eggjs/tsconfig/commit/9722eb25e2f67fa1b87eff226507e241583c418d)] - 📦 NEW: Enable useUnknownInCatchVariables (#2) (fengmk2 <<fengmk2@gmail.com>>)
+
 1.0.0 / 2020-07-30
 ==================
 
