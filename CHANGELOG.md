@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/eggjs/tsconfig/compare/v1.2.0...v1.3.0) (2023-02-11)
+
+
+### Features
+
+* enable emitDecoratorMetadata by default ([#6](https://github.com/eggjs/tsconfig/issues/6)) ([28c8446](https://github.com/eggjs/tsconfig/commit/28c8446678e29ccb7df0c3fd1e2964a05223c6cd))
+
 ## [1.2.0](https://github.com/eggjs/tsconfig/compare/v1.1.0...v1.2.0) (2022-12-17)
 
 
