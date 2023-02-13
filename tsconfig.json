@@ -1,7 +1,7 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
-    "target": "ES2019",
+    "target": "ES2020",
     "module": "commonjs",
     "strict": true,
     // Warn on expressions and declarations with an implied 'any' type.
@@ -34,6 +34,6 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "useUnknownInCatchVariables": true,
-    "incremental": true
+    "incremental": false
   }
 }
