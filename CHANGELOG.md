@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.2](https://github.com/eggjs/tsconfig/compare/v1.3.1...v1.3.2) (2023-02-13)
+
+
+### Bug Fixes
+
+* disable incremental and reset target to ES2020 ([#8](https://github.com/eggjs/tsconfig/issues/8)) ([e2915d1](https://github.com/eggjs/tsconfig/commit/e2915d1e36ce7f46e85e93a0f02d0c89c24e3437))
+
 ## [1.3.1](https://github.com/eggjs/tsconfig/compare/v1.3.0...v1.3.1) (2023-02-13)
 
 
