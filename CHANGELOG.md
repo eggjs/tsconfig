@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/eggjs/tsconfig/compare/v1.3.0...v1.3.1) (2023-02-13)
+
+
+### Bug Fixes
+
+* revert target to ES2019 ([#7](https://github.com/eggjs/tsconfig/issues/7)) ([c349fc6](https://github.com/eggjs/tsconfig/commit/c349fc6cc21e81471562187b8acbf296f25d6955))
+
 ## [1.3.0](https://github.com/eggjs/tsconfig/compare/v1.2.0...v1.3.0) (2023-02-11)
 
 
