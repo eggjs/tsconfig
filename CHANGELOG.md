@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.3](https://github.com/eggjs/tsconfig/compare/v1.3.2...v1.3.3) (2023-04-16)
+
+
+### Bug Fixes
+
+* remove charset option ([#9](https://github.com/eggjs/tsconfig/issues/9)) ([c013898](https://github.com/eggjs/tsconfig/commit/c01389848ffcdd1655162c8ab79d570eb47454c2))
+
 ## [1.3.2](https://github.com/eggjs/tsconfig/compare/v1.3.1...v1.3.2) (2023-02-13)
 
 
