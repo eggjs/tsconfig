@@ -5,7 +5,7 @@ function FooDecorator() {
 }
 
 @FooDecorator()
-class Foo {
+export class Foo {
   demoError() {
     try {
 
