@@ -1,5 +1,34 @@
 # Changelog
 
+## [2.0.0](https://github.com/eggjs/tsconfig/compare/v1.3.3...v2.0.0) (2025-03-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* drop Node.js < 18.19.0 support
+
+
+<!-- This is an auto-generated comment: release notes by coderabbit.ai
+-->
+## Summary by CodeRabbit
+
+- **Documentation**
+- Extended changelog entries to include details for versions 1.1.0 and
+1.0.0.
+  - Removed outdated pull request template from documentation.
+
+- **Chores**
+- Updated dependency and Node.js requirements for enhanced compatibility
+with modern ECMAScript standards.
+  - Refined CI workflow configurations and removed obsolete files.
+  - Updated licensing details to reflect ongoing contributions.
+  - Removed NPM quality badge from the README.
+<!-- end of auto-generated comment: release notes by coderabbit.ai -->
+
+### Features
+
+* set default target to ES2022 and moduleResolution to NodeNext ([#10](https://github.com/eggjs/tsconfig/issues/10)) ([bcdd2aa](https://github.com/eggjs/tsconfig/commit/bcdd2aa0e2acd4f1844446d73c21ae5babae79b0))
+
 ## [1.3.3](https://github.com/eggjs/tsconfig/compare/v1.3.2...v1.3.3) (2023-04-16)
 
 
@@ -50,4 +79,3 @@
 
 **others**
   * [[`05c0e95`](http://github.com/eggjs/tsconfig/commit/05c0e954eea00398ed63d6449febbc86051c7fb5)] - first impl (#1) (killa <<killa123@126.com>>),fatal: No names found, cannot describe anything.
-
