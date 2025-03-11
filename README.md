@@ -2,7 +2,6 @@
 
 [![NPM version][npm-image]][npm-url]
 [![CI](https://github.com/eggjs/tsconfig/actions/workflows/nodejs.yml/badge.svg?branch=master)](https://github.com/eggjs/tsconfig/actions/workflows/nodejs.yml)
-[![NPM quality][quality-image]][quality-url]
 [![npm download][download-image]][download-url]
 [![Node.js Version](https://img.shields.io/node/v/@eggjs/tsconfig.svg?style=flat)](https://nodejs.org/en/download/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
@@ -10,8 +9,6 @@
 
 [npm-image]: https://img.shields.io/npm/v/@eggjs/tsconfig.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/@eggjs/tsconfig
-[quality-image]: http://npm.packagequality.com/shield/@eggjs/tsconfig.svg?style=flat-square
-[quality-url]: http://packagequality.com/#?package=@eggjs/tsconfig
 [download-image]: https://img.shields.io/npm/dm/@eggjs/tsconfig.svg?style=flat-square
 [download-url]: https://npmjs.org/package/@eggjs/tsconfig
 
