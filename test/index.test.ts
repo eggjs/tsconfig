@@ -1,9 +1,7 @@
-'use strict';
-
-const coffee = require('coffee');
-const path = require('path');
-const fs = require('fs/promises');
-const assert = require('assert');
+import coffee from 'coffee';
+import path from 'node:path';
+import fs from 'node:fs/promises';
+import assert from 'node:assert/strict';
 
 describe('test/index.test.ts', () => {
   it('should work', async () => {

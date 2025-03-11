@@ -1,12 +1,11 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
-    "target": "ES2020",
-    "module": "commonjs",
     "strict": true,
-    // Warn on expressions and declarations with an implied 'any' type.
-    // Many npm pack do not has own definition, so not enable
-    "noImplicitAny": false,
+    "noImplicitAny": true,
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     // Emit '__importStar' and '__importDefault' helpers for runtime babel ecosystem compatibility
     // and enable '--allowSyntheticDefaultImports' for typesystem compatibility.
     // Convenient for import assert from 'assert'
