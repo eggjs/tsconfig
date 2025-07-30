@@ -3,7 +3,8 @@
   "compilerOptions": {
     "strict": true,
     "noImplicitAny": true,
-    "target": "ES2022",
+    // https://node.green/#ES2024
+    "target": "ES2024",
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     // Emit '__importStar' and '__importDefault' helpers for runtime babel ecosystem compatibility
@@ -32,6 +33,10 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "useUnknownInCatchVariables": true,
-    "incremental": false
+    "incremental": false,
+    // https://nodejs.org/en/learn/typescript/publishing-a-ts-package#treat-types-like-a-test
+    "erasableSyntaxOnly": true,
+    "verbatimModuleSyntax": true,
+    "rewriteRelativeImportExtensions": true
   }
 }
