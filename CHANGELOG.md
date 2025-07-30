@@ -1,5 +1,33 @@
 # Changelog
 
+## [3.0.0](https://github.com/eggjs/tsconfig/compare/v2.0.0...v3.0.0) (2025-07-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* drop Node.js < 22.17.1 support
+
+<!-- This is an auto-generated comment: release notes by coderabbit.ai
+-->
+## Summary by CodeRabbit
+
+* **Chores**
+* Updated Node.js version requirements and CI workflow to support
+Node.js 22 and 24.
+* Improved test scripts by switching to the native Node.js test runner
+and simplifying CI commands.
+  * Updated development dependencies and set the package type to module.
+* Upgraded TypeScript configuration to target ES2024 and added new
+module-related compiler options.
+* Refactored test files to use the Node.js test module instead of Mocha.
+* Modularized a class decorator by moving it to an external file for
+better code organization.
+<!-- end of auto-generated comment: release notes by coderabbit.ai -->
+
+### Features
+
+* esm only ([#11](https://github.com/eggjs/tsconfig/issues/11)) ([52c8817](https://github.com/eggjs/tsconfig/commit/52c88179dbb823be37ee7edbd68fb7be0fd18ceb))
+
 ## [2.0.0](https://github.com/eggjs/tsconfig/compare/v1.3.3...v2.0.0) (2025-03-11)
 
 
