@@ -1,8 +1,4 @@
-function FooDecorator() {
-  return function (target: any) {
-    console.log('decorator to class: ', target);
-  }
-}
+import FooDecorator from './FooDecorator.ts';
 
 @FooDecorator()
 export class Foo {
