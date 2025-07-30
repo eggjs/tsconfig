@@ -13,7 +13,7 @@
   "scripts": {
     "lint": "echo 'ignore'",
     "test": "node --test --test-force-exit --experimental-strip-types test/index.test.ts",
-    "ci": "c8 -r html -r lcov -r text npm test"
+    "ci": "npm test"
   },
   "author": "killagu <killa123@126.com>",
   "license": "MIT",
@@ -30,7 +30,6 @@
   },
   "devDependencies": {
     "@types/node": "24",
-    "c8": "10",
     "coffee": "5",
     "typescript": "5"
   },
